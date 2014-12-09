@@ -1,8 +1,6 @@
 setwd("C:\\Dropbox\\R\\False_Positives_FGSP\\Results\\")
 source("C:\\Dropbox\\R\\False_Positives_FGSP\\DataManip.R")
-library ("R2jags")
-library("R2WinBUGS")
-library("BRugs")
+library("jagsUI")
 library ("mailR")
 # data is in a list called "dat"
 # Y and W are 3D arrays, nsite x nvisit x nyear 
